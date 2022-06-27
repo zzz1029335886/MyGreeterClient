@@ -18,13 +18,15 @@ class MyGreeterClientTests: XCTestCase {
     
     func testGetGreeting() {
         let client = Client()
+        let calendar = Calendar.current
+        
         for _ in 0...23 {
             client.nowDate = client.nowDate.addingTimeInterval(60 * 60)
             
-            let calendar = Calendar.current
             let hour = calendar.component(.hour, from: client.nowDate)
             
             let greetingStr: String
+            
             switch hour{
             case 6...11:
                 greetingStr = "Good morning"
