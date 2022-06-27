@@ -8,8 +8,10 @@
 import Foundation
 
 class Client{
+    
+    var nowDate: Date = .now
+    
     func getGreeting() -> String{
-        let nowDate = Date.now
         let calendar = Calendar.current
         let hour = calendar.component(.hour, from: nowDate)
         switch hour{
