@@ -16,6 +16,7 @@
 		D4C358F02869A5A30007C81B /* MyGreeterClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C358EF2869A5A30007C81B /* MyGreeterClientTests.swift */; };
 		D4C358FA2869A5A30007C81B /* MyGreeterClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C358F92869A5A30007C81B /* MyGreeterClientUITests.swift */; };
 		D4C358FC2869A5A30007C81B /* MyGreeterClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C358FB2869A5A30007C81B /* MyGreeterClientUITestsLaunchTests.swift */; };
+		D4C3590C2869A6090007C81B /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C359082869A5F90007C81B /* Client.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		D4C358F52869A5A30007C81B /* MyGreeterClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGreeterClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4C358F92869A5A30007C81B /* MyGreeterClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGreeterClientUITests.swift; sourceTree = "<group>"; };
 		D4C358FB2869A5A30007C81B /* MyGreeterClientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGreeterClientUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4C359082869A5F90007C81B /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		D4C358D82869A5A10007C81B /* MyGreeterClient */ = {
 			isa = PBXGroup;
 			children = (
+				D4C359082869A5F90007C81B /* Client.swift */,
 				D4C358D92869A5A10007C81B /* MyGreeterClientApp.swift */,
 				D4C358DB2869A5A10007C81B /* ContentView.swift */,
 				D4C358DD2869A5A30007C81B /* Assets.xcassets */,
@@ -266,6 +269,7 @@
 				D4C358E32869A5A30007C81B /* Persistence.swift in Sources */,
 				D4C358DC2869A5A10007C81B /* ContentView.swift in Sources */,
 				D4C358DA2869A5A10007C81B /* MyGreeterClientApp.swift in Sources */,
+				D4C3590C2869A6090007C81B /* Client.swift in Sources */,
 				D4C358E62869A5A30007C81B /* MyGreeterClient.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
